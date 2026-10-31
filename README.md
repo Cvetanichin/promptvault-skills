@@ -1,0 +1,50 @@
+# PromptVault Skills
+
+67 ready-to-use [Claude Code skills](https://code.claude.com/docs/en/skills.md),
+curated from the [PromptVault](https://github.com/Cvetanichin/PromptVault) prompt
+library. Each skill is a self-contained instruction set Claude Code can invoke by
+name — no app, no dependencies, just drop the folders into your project.
+
+## Quick install
+
+```bash
+git clone <this-repo-url>
+cp -r promptvault-skills/skills/* /path/to/your-project/.claude/skills/
+```
+
+Then start (or restart) `claude` in your project. See [INSTALL.md](INSTALL.md) for
+the full walkthrough, including Windows instructions, installing a single skill,
+and troubleshooting.
+
+## What's in here
+
+General-purpose prompt-engineering, automation, research, writing, and productivity
+skills — the broadly useful subset of PromptVault's library. Two kinds of prompts
+were intentionally left out: NGO/consultancy-specific ones (donor reporting,
+fundraising, EU grants, M&E) and anything personalized to the original author's own
+name, brand, or workspace setup — this pack is for any project, not a specific
+domain or person.
+
+| Category | Skills |
+|---|---|
+| Prompt Engineering | 10 |
+| System Prompt (personas/modes) | 9 |
+| AI & Automation | 8 |
+| Research & Analysis | 7 |
+| Meta-Prompting | 6 |
+| Workspace & Productivity | 4 |
+| Clarification | 3 |
+| Data Engineering | 3 |
+| Project Management | 3 |
+| Rephrasing | 3 |
+| Summarization | 3 |
+| Versioning | 3 |
+| Capacity Building | 2 |
+| Vibe Coding / Product | 2 |
+| Communication | 1 |
+
+Full catalog with descriptions: [INSTALL.md § Catalog](INSTALL.md#catalog).
+
+## License
+
+See [LICENSE](LICENSE).
