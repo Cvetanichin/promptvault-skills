@@ -1,6 +1,6 @@
 # Installing PromptVault Skills
 
-This repo contains 67 [Claude Code skills](https://code.claude.com/docs/en/skills.md)
+This repo contains 78 [Claude Code skills](https://code.claude.com/docs/en/skills.md)
 — each one a `skills/<skill-name>/SKILL.md` folder. A skill is just a markdown file
 with a short YAML header; Claude Code discovers it automatically once it's placed in
 the right location. There's nothing to build, install, or configure beyond copying
@@ -128,7 +128,7 @@ other state to clean up.
 
 ## Catalog
 
-All 67 skills, grouped by category. The `Skill` column is the exact name you invoke
+All 78 skills, grouped by category. The `Skill` column is the exact name you invoke
 (e.g. `/mcp-server-builder-prompt`).
 ### Prompt Engineering (10)
 
@@ -271,4 +271,25 @@ All 67 skills, grouped by category. The `Skill` column is the exact name you inv
 | `python-fastmcp-dev` | Use when writing or reviewing Python code for FastMCP/FastAPI servers or Windows automation targeting Claude Desktop MCP. Enforces Pydantic validation, type hints, docstrings, PowerShell-safe string handling, and destructiveHint annotations on write tools. |
 | `researcher-mode` | Use when a task needs rigorous, citation-backed research rather than a quick answer. Gathers information from credible sources (academic journals, official reports, reputable news), cross-verifies facts, provides citations and links, and highlights key trends, contradictions, and open questions. |
 | `strategic-minimalist-writer` | Use when rewriting or drafting text that needs to be terse, confident, and value-first rather than hedged or padded. Applies short declarative sentences, contrast reframes, number-anchored specificity, and strips hedging language like 'it is important to' or 'in order to'. |
+
+### Fundraising (6)
+
+| Skill | Description |
+|---|---|
+| `civil-society-funding-monitor-ai-product-spec` | Use when building or briefing an AI assistant to design a web application that continuously monitors, classifies, and surfaces grant opportunities for civil society organizations. |
+| `cso-2026-funding-dashboard-builder` | Tracking open funding calls across multiple donors and thematic areas for a CSO, NGO, or consultancy fundraising pipeline. |
+| `digital-rights-ai-governance-funding-monitor-web-app-spec` | Designing an automated grant-monitoring tool for a CSO or NGO focused on digital rights, AI governance, technology policy, or civic space. |
+| `donor-email-outreach-writer` | Writing personalised donor outreach emails — cold introduction, follow-up after a meeting, or proposal submission cover note. |
+| `donor-research-prospect-mapper` | Weekly donor prospecting — building a prioritised list of matched funders based on organisation profile and thematic fit. |
+| `grant-pipeline-prioritization-engine` | Weekly pipeline review — ranking active grant opportunities by strategic fit, effort-to-value ratio, and readiness. |
+
+### Organizational Development (5)
+
+| Skill | Description |
+|---|---|
+| `custom-taxonomy-design-for-cso-document-management` | Redesigning a document management system for a CSO, NGO, consultancy, or EU-funded project archive. |
+| `eu-prag-2025-internal-knowledge-assistant-procurement-grants-compliance` | Use as a system prompt to configure an AI assistant for EU external action procurement and grant compliance — covers PRAG 2025 rules, procurement thresholds, and eligibility. |
+| `fundraising-strategy-builder` | Supporting CSO fundraising strategy — donor mapping, revenue mix, top opportunities, and dependency risk. |
+| `ngo-human-rights-project-design-framework` | Designing or improving civil society projects in human rights, rule of law, gender equality, or democratic governance. |
+| `strategic-plan-builder` | Supporting CSOs with organizational strategic planning — SWOT, priorities, objectives, resourcing, MEL, and governance. |
 

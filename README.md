@@ -1,6 +1,6 @@
 # PromptVault Skills
 
-67 ready-to-use [Agent Skills](https://code.claude.com/docs/en/skills.md) for
+78 ready-to-use [Agent Skills](https://code.claude.com/docs/en/skills.md) for
 Claude Code, Cursor, and GitHub Copilot, curated from the
 [PromptVault](https://github.com/Cvetanichin/PromptVault) prompt library. Each
 skill is a self-contained instruction set your agent can invoke by name — no app,
@@ -22,11 +22,10 @@ instructions, installing a single skill, and troubleshooting.
 ## What's in here
 
 General-purpose prompt-engineering, automation, research, writing, and productivity
-skills — the broadly useful subset of PromptVault's library. Two kinds of prompts
-were intentionally left out: NGO/consultancy-specific ones (donor reporting,
-fundraising, EU grants, M&E) and anything personalized to the original author's own
-name, brand, or workspace setup — this pack is for any project, not a specific
-domain or person.
+skills, plus a set of reusable fundraising and organizational-development prompts
+for civil society organizations (CSOs/NGOs) — curated from PromptVault's library.
+Left out: anything personalized to the original author's own name, brand, or
+workspace setup — this pack is for any project, not a specific person.
 
 | Category | Skills |
 |---|---|
@@ -34,7 +33,9 @@ domain or person.
 | System Prompt (personas/modes) | 9 |
 | AI & Automation | 8 |
 | Research & Analysis | 7 |
+| Fundraising | 6 |
 | Meta-Prompting | 6 |
+| Organizational Development | 5 |
 | Workspace & Productivity | 4 |
 | Clarification | 3 |
 | Data Engineering | 3 |
