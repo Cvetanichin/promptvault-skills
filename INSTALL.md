@@ -69,6 +69,28 @@ instead — same as the personal-folder install above, just with Cursor's path.
 Cursor loads skills on demand, deciding from the `description` whether a skill
 fits the current task, so there's nothing else to configure.
 
+## Install for GitHub Copilot
+
+Copilot reads the same Agent Skills format too — across Copilot agent mode in
+VS Code/Visual Studio, the Copilot CLI, and Copilot cloud agents. For a project,
+use `.github/skills/`.
+
+```bash
+# Project skills (macOS / Linux)
+git clone <this-repo-url>
+cp -r promptvault-skills/skills/* /path/to/your-project/.github/skills/
+```
+
+```powershell
+# Project skills (Windows PowerShell)
+git clone <this-repo-url>
+Copy-Item -Recurse promptvault-skills\skills\* C:\path\to\your-project\.github\skills\
+```
+
+For skills available in every Copilot session on your machine, copy into
+`~/.copilot/skills/` instead. Same as Cursor, Copilot decides from each skill's
+`description` whether it fits the task — nothing else to configure.
+
 ## Verify it worked
 
 1. Start (or restart) `claude` from the project directory you copied into.
