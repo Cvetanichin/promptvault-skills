@@ -1,6 +1,6 @@
 ---
 name: google-sheets-excel-data-consolidation-script
-description: "Consolidating data spread across multiple spreadsheet tabs or files — common in M&E data entry, expense tracking, beneficiary registers, or multi-project repor…"
+description: "Use when consolidating data spread across multiple spreadsheet tabs or files — common in M&E data entry, expense tracking, beneficiary registers, or multi-project reporting. Writes a complete Google Apps Script or Excel VBA macro that merges tabs into one master sheet, with error handling and a processing log."
 ---
 
 Write a [Google Apps Script / Excel VBA] script to consolidate and clean spreadsheet data.

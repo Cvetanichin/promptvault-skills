@@ -97,7 +97,7 @@ All 67 skills, grouped by category. The `Skill` column is the exact name you inv
 | `output-format-specifier` | Eliminating format inconsistency from any prompt. |
 | `persona-enriched-task-prompt-builder` | Upgrading generic prompts with rich persona context. |
 | `schema-driven-structured-output-enforcer` | Any AI feature where inconsistent output shapes crash downstream code or parsers. Transforms 40% crash rate to 0%. |
-| `three-layer-system-prompt-constructor` | Any AI feature, assistant, or recurring workflow where consistent tone, policy-compliance, and predictable behaviour matter. Vague prompts → improvised behavio… |
+| `three-layer-system-prompt-constructor` | Use for any AI feature, assistant, or recurring workflow where consistent tone, policy compliance, and predictable behaviour matter — vague prompts lead to improvised behaviour. Builds a complete IDENTITY / CONSTRAINTS / CONTEXT system prompt from a described use case. |
 | `zero-shot-task-decomposer` | Converting a large complex task into a chain of smaller precise prompts. |
 
 ### AI & Automation (8)
@@ -105,9 +105,9 @@ All 67 skills, grouped by category. The `Skill` column is the exact name you inv
 | Skill | Description |
 |---|---|
 | `ai-workflow-automation-designer` | Designing AI-powered automation for recurring tasks — monthly system upgrades, new tool integrations, or scaling manual workflows. |
-| `cso-workflow-automation-blueprint-make-com-n8n` | When designing a specific workflow automation for an NGO or consultancy, such as partner update aggregation, grant tracking, report drafting, or meeting follow… |
+| `cso-workflow-automation-blueprint-make-com-n8n` | Use when designing a specific workflow automation for an NGO or consultancy — such as partner update aggregation, grant tracking, report drafting, or meeting follow-up — on Make.com or n8n. Produces a non-technical process map plus an implementation table of modules/nodes, triggers, data fields, and error handling. |
 | `digital-hygiene-agent-prompt` | Automated local/Drive file management. |
-| `google-workspace-automation-local-cloud-integration-architecture` | Use when setting up or improving automations between local files and Google Workspace (Drive, Gmail, Calendar, Keep). Produces a connected architecture with wo… |
+| `google-workspace-automation-local-cloud-integration-architecture` | Use when setting up or improving automations between local files and Google Workspace (Drive, Gmail, Calendar, Keep). Produces a connected architecture with a workflow map, automation trigger list, and a phased manual-first-then-automate implementation plan. |
 | `mcp-server-builder-prompt` | Building MCP server tools for Claude Desktop. |
 | `multi-source-partner-update-aggregation-system` | When building an automation system for a CSO network, consortium, or large NGO that receives updates from multiple partners and needs one clean reporting view. |
 | `powershell-file-organizer` | Windows file organization and Drive mirroring. |
@@ -117,22 +117,22 @@ All 67 skills, grouped by category. The `Skill` column is the exact name you inv
 
 | Skill | Description |
 |---|---|
-| `ai-driven-growth-experiment-design-insight-hypothesis-experiment-workflo` | Use when designing structured growth experiments from user feedback or community data. Useful for product teams, NGO programme designers testing interventions,… |
+| `ai-driven-growth-experiment-design-insight-hypothesis-experiment-workflo` | Use when designing structured growth experiments from user feedback or community data. Runs the Insight → Hypothesis → Persona → Experiment → Prototype cycle. Useful for product teams, NGO programme designers testing interventions, and growth teams validating product-market fit. |
 | `ai-driven-root-cause-analysis-for-ngo-performance-decline` | When a key performance indicator is underperforming and the team needs to diagnose why before donor reporting or adaptive management decisions. |
 | `comprehensive-research-summary` | In-depth understanding for proposals, reports, or strategic planning. |
 | `constitutional-court-research-prompt` | Legal research on Constitutional Court jurisprudence in Western Balkans. |
-| `driver-tree-root-cause-analysis-pack` | When a key performance indicator is declining and you need to move from data observation to structured root cause hypotheses to management recommendations — in… |
+| `driver-tree-root-cause-analysis-pack` | Use when a key performance indicator is declining and you need to move from data observation to structured root-cause hypotheses to management recommendations — including trend analysis, a driver tree, ranked hypotheses, and an executive narrative. |
 | `rapid-evidence-review-prompt` | Background research during proposal development or evaluation prep. |
-| `variance-bridge-financial-analysis-pack` | When gross margin or profitability is deteriorating and you need to decompose the financial variance into its drivers, link to operational causes, and communic… |
+| `variance-bridge-financial-analysis-pack` | Use when gross margin or profitability is deteriorating and you need to decompose the financial variance into price, volume, mix, and cost effects, link them to operational root causes, and communicate the result as a CEO-ready narrative. |
 
 ### Workspace & Productivity (4)
 
 | Skill | Description |
 |---|---|
 | `airtable-notion-database-architecture` | Setting up a project management, CRM, or M&E database in Airtable or Notion — system design phase. |
-| `design-unified-google-drive-notion-workspace-two-domain-structure` | Use when setting up or redesigning a dual-domain personal workspace in Google Drive + Notion — especially for solo civil society/NGO professionals who also do… |
+| `design-unified-google-drive-notion-workspace-two-domain-structure` | Use when setting up or redesigning a dual-domain personal workspace across Google Drive and Notion — especially for solo civil society/NGO professionals who also do technical or AI work and need their two domains clearly separated but connected. Produces a folder structure, naming convention, Notion layout, tag set, and quick-start checklist. |
 | `notion-task-meeting-creator` | Creating structured Notion entries via Claude integration. |
-| `weekly-project-status-recap-workspace-scan` | Weekly workspace scan that identifies all active projects, gathers recent activity from the past 1-2 weeks, and produces a concise project recap per project co… |
+| `weekly-project-status-recap-workspace-scan` | Use for a weekly workspace scan that identifies all active projects, gathers recent activity from the past 1-2 weeks across connected tools, and produces a concise per-project recap covering status, next steps, people involved, blockers, and key links. |
 
 ### Meta-Prompting (6)
 
@@ -149,9 +149,9 @@ All 67 skills, grouped by category. The `Skill` column is the exact name you inv
 
 | Skill | Description |
 |---|---|
-| `data-analysis-and-impact-dashboard-agent-vintage-pastels` | Use as a system prompt for an AI data analysis agent that processes CSV/Excel/PDF project files and generates interactive Plotly dashboards using the Vintage P… |
-| `data-extraction-cleaning-structuring-pipeline` | Automating data processing: extracting from source, cleaning messy data, structuring unstructured input (notes/text), or transforming raw datasets for analysis… |
-| `google-sheets-excel-data-consolidation-script` | Consolidating data spread across multiple spreadsheet tabs or files — common in M&E data entry, expense tracking, beneficiary registers, or multi-project repor… |
+| `data-analysis-and-impact-dashboard-agent-vintage-pastels` | Use as a system prompt for an AI data analysis agent that processes CSV/Excel/PDF project files and generates interactive Plotly dashboards using the Vintage Pastels color palette. Best for NGO/M&E impact reporting — produces executive summaries, progress trackers, and risk boards from uploaded project data. |
+| `data-extraction-cleaning-structuring-pipeline` | Use when automating data processing: extracting from a source (CSV/Excel/API/notes), cleaning messy data, structuring unstructured text into tables, or transforming raw datasets for analysis or import into Airtable/Notion/Excel. Produces a five-phase extract-clean-structure-validate-export pipeline with error handling and logging. |
+| `google-sheets-excel-data-consolidation-script` | Use when consolidating data spread across multiple spreadsheet tabs or files — common in M&E data entry, expense tracking, beneficiary registers, or multi-project reporting. Writes a complete Google Apps Script or Excel VBA macro that merges tabs into one master sheet, with error handling and a processing log. |
 
 ### Project Management (3)
 
@@ -217,13 +217,13 @@ All 67 skills, grouped by category. The `Skill` column is the exact name you inv
 
 | Skill | Description |
 |---|---|
-| `ai-prompt-engineer-mode` | AI Prompt Engineer Mode |
-| `anti-sycophancy-critic` | Anti-Sycophancy Critic |
-| `balanced-feedback-mode` | Balanced Feedback Mode |
-| `data-privacy-protocol` | Data Privacy Protocol |
-| `decision-useful-output-standard` | Decision-Useful Output Standard |
-| `lean-product-builder-mode` | Lean Product Builder Mode |
-| `python-fastmcp-dev` | Python / FastMCP Dev |
-| `researcher-mode` | Researcher Mode |
-| `strategic-minimalist-writer` | Strategic Minimalist Writer |
+| `ai-prompt-engineer-mode` | Use when writing or upgrading a prompt that needs to be specific, structured, self-evaluating, and reusable. Designs role-assigned prompts with a defined output format and parameterised placeholders, delivered with a usage guide and a 5-dimension quality score. |
+| `anti-sycophancy-critic` | Use at the start of any review, critique, or decision-support session where honest pushback matters more than agreement. Challenges weak assumptions, vague logic, and unsupported claims directly, separates evidence from interpretation, and ends with the highest-leverage next action instead of validating whatever is presented. |
+| `balanced-feedback-mode` | Use when reviewing documents, proposals, or code and the response needs both praise and critique, not just one. Structures feedback into Strengths, Areas for Improvement, and Recommendations, with specific, actionable points in each. |
+| `data-privacy-protocol` | Use when a task involves personal, sensitive, or beneficiary data and privacy needs active enforcement, not just awareness. Anonymizes personal data, avoids storing unnecessary identifiers, flags GDPR-relevant handling, and never reveals personal details in generated outputs. |
+| `decision-useful-output-standard` | Use when output needs to be acted on directly — by a project lead, donor, partner, or product owner — rather than just read. Defaults every response to practical, structured, decision-useful language: shortened, sharpened, and formatted for someone who needs to act. |
+| `lean-product-builder-mode` | Use when opening a product design or build session and the default should be lightweight, fast, no-code-first solutions rather than custom engineering. Favors Notion/Airtable/Zapier/Make/n8n/Google Workspace, states the simplest v1 that covers 80% of the problem, and flags maintenance overhead and dependency risks. |
+| `python-fastmcp-dev` | Use when writing or reviewing Python code for FastMCP/FastAPI servers or Windows automation targeting Claude Desktop MCP. Enforces Pydantic validation, type hints, docstrings, PowerShell-safe string handling, and destructiveHint annotations on write tools. |
+| `researcher-mode` | Use when a task needs rigorous, citation-backed research rather than a quick answer. Gathers information from credible sources (academic journals, official reports, reputable news), cross-verifies facts, provides citations and links, and highlights key trends, contradictions, and open questions. |
+| `strategic-minimalist-writer` | Use when rewriting or drafting text that needs to be terse, confident, and value-first rather than hedged or padded. Applies short declarative sentences, contrast reframes, number-anchored specificity, and strips hedging language like 'it is important to' or 'in order to'. |
 

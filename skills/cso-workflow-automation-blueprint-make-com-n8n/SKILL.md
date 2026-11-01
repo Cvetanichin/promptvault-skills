@@ -1,6 +1,6 @@
 ---
 name: cso-workflow-automation-blueprint-make-com-n8n
-description: "When designing a specific workflow automation for an NGO or consultancy, such as partner update aggregation, grant tracking, report drafting, or meeting follow…"
+description: "Use when designing a specific workflow automation for an NGO or consultancy — such as partner update aggregation, grant tracking, report drafting, or meeting follow-up — on Make.com or n8n. Produces a non-technical process map plus an implementation table of modules/nodes, triggers, data fields, and error handling."
 ---
 
 Design a Make.com or n8n workflow blueprint for this civil society workflow: [WORKFLOW DESCRIPTION]. Include: trigger, connected apps, data fields, AI extraction or generation steps, human review points, error handling, notification logic, storage destination, and success metrics. Provide both a non-technical process map and an implementation table with module/node names, inputs, outputs, and setup notes. Prefer Google Workspace, Airtable, Notion, Gmail, Drive, Calendar, and Sheets unless another tool is specified.

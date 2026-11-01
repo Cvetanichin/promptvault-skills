@@ -1,6 +1,6 @@
 ---
 name: google-workspace-automation-local-cloud-integration-architecture
-description: "Use when setting up or improving automations between local files and Google Workspace (Drive, Gmail, Calendar, Keep). Produces a connected architecture with wo…"
+description: "Use when setting up or improving automations between local files and Google Workspace (Drive, Gmail, Calendar, Keep). Produces a connected architecture with a workflow map, automation trigger list, and a phased manual-first-then-automate implementation plan."
 ---
 
 I want to design and build a fully customized workspace tailored to my daily operations, workflows, and personal needs. I need to set up automations and connect my local drive (laptop) and local files between my Gmail account and tools such as Google Drive, Google Calendar, Google Keep, and Gemini to reduce manual filing and archiving work. Analyze and improve my internal workflows to make my work and operations clearer, faster, and more efficient using my G-Drive Workspace. Help me bring structure, turning scattered files into organized systems and systems into easy access.

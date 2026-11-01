@@ -1,6 +1,6 @@
 ---
 name: three-layer-system-prompt-constructor
-description: "Any AI feature, assistant, or recurring workflow where consistent tone, policy-compliance, and predictable behaviour matter. Vague prompts → improvised behavio…"
+description: "Use for any AI feature, assistant, or recurring workflow where consistent tone, policy compliance, and predictable behaviour matter — vague prompts lead to improvised behaviour. Builds a complete IDENTITY / CONSTRAINTS / CONTEXT system prompt from a described use case."
 ---
 
 Build a three-layer system prompt for the following assistant or use case:
