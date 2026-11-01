@@ -138,7 +138,7 @@ All 67 skills, grouped by category. The `Skill` column is the exact name you inv
 
 | Skill | Description |
 |---|---|
-| `anti-sycophancy-instruction-prompt` | At the start of any session where honest critique matters: proposal review, strategy evaluation, product planning, prompt testing, or decision support. |
+| `anti-sycophancy-instruction-prompt` | Use when you have a specific document, plan, or prompt to critique and need a structured breakdown rather than freeform feedback — proposal review, strategy evaluation, prompt testing, or decision support. Produces a four-part critique: strongest points, weak assumptions with exact quotes, evidence vs. interpretation, and the single highest-leverage next action. |
 | `dual-format-output-packager` | Any deliverable that needs to exist in both narrative (Word/PDF) and tabular (Excel/Notion) formats — standard for donor handoffs and workspace documentation. |
 | `expert-role-activation-prompt` | Opening complex task sessions. |
 | `prompt-library-updater-migration-audit` | Periodic library maintenance or migrating prompts from other AI workspaces (ChatGPT, Gemini, Perplexity) into Claude. |
