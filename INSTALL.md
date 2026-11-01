@@ -46,6 +46,29 @@ Copy just the one folder you want:
 cp -r promptvault-skills/skills/mcp-server-builder-prompt /path/to/your-project/.claude/skills/
 ```
 
+## Install for Cursor
+
+Cursor supports the same open Agent Skills format — each skill is still a plain
+`SKILL.md` folder with a YAML `name`/`description` header. Only the destination
+folder changes.
+
+```bash
+# Project skills (macOS / Linux)
+git clone <this-repo-url>
+cp -r promptvault-skills/skills/* /path/to/your-project/.cursor/skills/
+```
+
+```powershell
+# Project skills (Windows PowerShell)
+git clone <this-repo-url>
+Copy-Item -Recurse promptvault-skills\skills\* C:\path\to\your-project\.cursor\skills\
+```
+
+For skills available in **every** Cursor project, copy into `~/.cursor/skills/`
+instead — same as the personal-folder install above, just with Cursor's path.
+Cursor loads skills on demand, deciding from the `description` whether a skill
+fits the current task, so there's nothing else to configure.
+
 ## Verify it worked
 
 1. Start (or restart) `claude` from the project directory you copied into.
