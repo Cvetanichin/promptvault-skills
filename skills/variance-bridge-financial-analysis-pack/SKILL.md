@@ -1,6 +1,6 @@
 ---
 name: variance-bridge-financial-analysis-pack
-description: "Use when gross margin or profitability is deteriorating and you need to decompose the financial variance into price, volume, mix, and cost effects, link them to operational root causes, and communicate the result as a CEO-ready narrative."
+description: "When gross margin or profitability is deteriorating and you need to decompose the financial variance into its drivers, link to operational causes, and communic…"
 ---
 
 Conduct a variance bridge financial analysis for [METRIC: gross margin / EBITDA / revenue] deterioration in [CONTEXT].

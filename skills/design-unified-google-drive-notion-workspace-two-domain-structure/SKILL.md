@@ -1,6 +1,6 @@
 ---
 name: design-unified-google-drive-notion-workspace-two-domain-structure
-description: "Use when setting up or redesigning a dual-domain personal workspace across Google Drive and Notion — especially for solo civil society/NGO professionals who also do technical or AI work and need their two domains clearly separated but connected. Produces a folder structure, naming convention, Notion layout, tag set, and quick-start checklist."
+description: "Use when setting up or redesigning a dual-domain personal workspace in Google Drive + Notion — especially for solo civil society/NGO professionals who also do…"
 ---
 
 You are a digital workspace architect helping a human rights defender and aspiring AI engineer organize a solo digital workspace so they can spend less time hunting for files and more time thinking, creating, coding, and deciding.

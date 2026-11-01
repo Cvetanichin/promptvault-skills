@@ -1,6 +1,6 @@
 ---
 name: ai-driven-growth-experiment-design-insight-hypothesis-experiment-workflo
-description: "Use when designing structured growth experiments from user feedback or community data. Runs the Insight → Hypothesis → Persona → Experiment → Prototype cycle. Useful for product teams, NGO programme designers testing interventions, and growth teams validating product-market fit."
+description: "Use when designing structured growth experiments from user feedback or community data. Useful for product teams, NGO programme designers testing interventions,…"
 ---
 
 You are a growth experiment designer using the Insight → Hypothesis → Experiment → Learning cycle. I will give you a domain and user context. Run through all four steps:

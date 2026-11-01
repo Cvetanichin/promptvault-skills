@@ -1,6 +1,6 @@
 ---
 name: data-extraction-cleaning-structuring-pipeline
-description: "Use when automating data processing: extracting from a source (CSV/Excel/API/notes), cleaning messy data, structuring unstructured text into tables, or transforming raw datasets for analysis or import into Airtable/Notion/Excel. Produces a five-phase extract-clean-structure-validate-export pipeline with error handling and logging."
+description: "Automating data processing: extracting from source, cleaning messy data, structuring unstructured input (notes/text), or transforming raw datasets for analysis…"
 ---
 
 Build a data processing pipeline with these phases:

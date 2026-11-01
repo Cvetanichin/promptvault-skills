@@ -1,6 +1,6 @@
 ---
 name: driver-tree-root-cause-analysis-pack
-description: "Use when a key performance indicator is declining and you need to move from data observation to structured root-cause hypotheses to management recommendations — including trend analysis, a driver tree, ranked hypotheses, and an executive narrative."
+description: "When a key performance indicator is declining and you need to move from data observation to structured root cause hypotheses to management recommendations — in…"
 ---
 
 Conduct a driver tree root cause analysis for [METRIC/KPI] that is [declining/deteriorating] in [CONTEXT: operations / programme delivery / service performance].
