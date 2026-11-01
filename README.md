@@ -1,20 +1,23 @@
 # PromptVault Skills
 
-67 ready-to-use [Claude Code skills](https://code.claude.com/docs/en/skills.md),
-curated from the [PromptVault](https://github.com/Cvetanichin/PromptVault) prompt
-library. Each skill is a self-contained instruction set Claude Code can invoke by
-name — no app, no dependencies, just drop the folders into your project.
+67 ready-to-use [Agent Skills](https://code.claude.com/docs/en/skills.md) for
+Claude Code, Cursor, and GitHub Copilot, curated from the
+[PromptVault](https://github.com/Cvetanichin/PromptVault) prompt library. Each
+skill is a self-contained instruction set your agent can invoke by name — no app,
+no dependencies, just drop the folders into your project.
 
 ## Quick install
 
 ```bash
+# Claude Code
 git clone <this-repo-url>
 cp -r promptvault-skills/skills/* /path/to/your-project/.claude/skills/
 ```
 
-Then start (or restart) `claude` in your project. See [INSTALL.md](INSTALL.md) for
-the full walkthrough, including Windows instructions, installing a single skill,
-and troubleshooting.
+Then start (or restart) `claude` in your project. Using Cursor or GitHub Copilot
+instead? Same skills, just a different folder — see [INSTALL.md](INSTALL.md) for
+the Cursor (`.cursor/skills/`) and Copilot (`.github/skills/`) paths, Windows
+instructions, installing a single skill, and troubleshooting.
 
 ## What's in here
 
